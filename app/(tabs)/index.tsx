@@ -24,7 +24,7 @@ const index = () => {
           });
       })
       .catch(() => {
-        console.log("Permission not granted", authStatus);
+        console.log("Permission not granted");
       });
 
     messaging()
